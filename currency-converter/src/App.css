@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: Roboto;
+}
+
+/* HEADINGS */
+h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+  margin: 15px;
+}
+h2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  margin: 15px;
+}
+
+.welcome-page {
+  background-color: #030c6e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Convertor container*/
+.convertor-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 15px 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.convertor-select-boxes-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.convertor-select-boxes-item {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: 150px;
+}
+
+.select-box-title {
+  font-weight: 700;
+}
+
+.select-box-amount,
+.select-box-currency,
+.convert-button {
+  border-color: #0071eb;
+  border-radius: 5px;
+  border-width: 2px;
+  margin: 0px;
+  height: 30px;
+}
