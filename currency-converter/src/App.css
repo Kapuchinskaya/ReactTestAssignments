@@ -36,33 +36,74 @@ h2 {
   background-color: white;
   border-radius: 5px;
   margin: 15px 0px;
-  padding: 15px 5px;
+  padding: 15px 0px;
   align-items: center;
   justify-content: center;
+}
+
+.default-currency-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .convertor-select-boxes-row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .convertor-select-boxes-item {
   display: flex;
   flex-direction: column;
-  margin: 5px;
   width: 150px;
+  margin: 0px 15px;
 }
 
 .select-box-title {
   font-weight: 700;
+  color: #141e37;
 }
 
 .select-box-amount,
 .select-box-currency,
 .convert-button {
-  border-color: #0071eb;
-  border-radius: 5px;
-  border-width: 2px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 8px;
+  border-width: 1px;
   margin: 0px;
-  height: 30px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  height: 40px;
+  outline: none;
+}
+
+.select-box-currency:focus {
+  border-color: #0071eb;
+}
+
+.select-box-amount:focus-visible {
+  border-color: #0071eb;
+}
+
+.default-currency-amount-select {
+  width: 150px;
+  margin: 0px 15px;
+}
+
+.convert-button {
+  border: none;
+  background-color: #0071eb;
+  color: white;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.convert-button:hover {
+  transition: 0.5ms;
+  border: none;
+  background-color: #2697ff;
 }
